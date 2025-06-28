@@ -46,6 +46,7 @@ Requirement Analysis is a critical phase in the software development lifecycle (
 * **Acceptance Criteria:** Defining clear acceptance criteria for each requirement to ensure they meet the expected standards.
 * **Traceability:** Establishing traceability matrices to ensure all requirements are addressed during development and testing.
 
+# Types of Requirements
 ## Functional Requirements:
 
 * **Search Properties:** Users should be able to search for properties based on various criteria such as location, price, and availability.
@@ -67,3 +68,15 @@ Use Case Diagrams are a valuable tool for planning and communication in software
 
 ![Diagrams](alx-booking-uc.png)
 
+# Acceptance Criteria.
+
+acceptance criteria are vital during requirement analysis because they turn high-level goals into practical, testable, and agreed-upon targets, ensuring the right product is delivered in the right way.
+
+## Acceptance Criteria for a feature like the checkout feature.
+* Booking Summary Displayed: The user must see a summary of their selected booking (e.g., date, time, service, price) before checkout.
+* Payment Method Selection: The user must be able to choose from available payment options (e.g., credit card, PayPal).
+* Valid Payment Processing: The system must process valid payment details and return a success or failure message.
+* Error Handling for Failed Payments: If payment fails, the system must display an error message and allow the user to retry.
+* Confirmation Message: After successful payment, the user must see a confirmation message with a unique booking reference number.
+* Email Confirmation Sent: A confirmation email with booking details must be sent to the user within 2 minutes of successful checkout.
+* Booking Saved: The system must save the booking details in the database only after a successful payment.
